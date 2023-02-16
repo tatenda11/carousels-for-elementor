@@ -16,15 +16,20 @@
 }
 
 .carousel-tab-nav-button{
-   background-color: #fff;
-   border: 1px solid #042745;
-   color:#042745;
+   border: 1px solid rgb(4, 39, 69);
+   padding: 11px;
+   font-weight: bold;
+   margin: 1.5px;
+   color: rgb(4, 39, 69);
 }
 .carousel-tab-nav-button.active-slide-button, .carousel-tab-nav-button:hover{
    background-color: #009EDB;
    color: #fff;
 }
 
+.carousel-tab-nav-list{
+   padding: 11px;
+}
 .carousel-tab-nav-list li:first-child button{
    border-bottom-left-radius: 20px 20px;
    border-top-left-radius: 20px 20px;
